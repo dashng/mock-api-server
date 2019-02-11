@@ -1,0 +1,88 @@
+body {
+    font-family: 'Open Sans';
+    font-size: 12px;
+}
+div.row {
+    padding: 10px 20px 5px;
+    float: left;
+    clear: both;
+    position: relative;
+}
+
+div.padding-left-zero {
+    padding-left: 0px;
+}
+
+div.row > label {
+    font-size: 12px;
+}
+
+input, select, button, textarea {
+    width: 180px;
+    height: 25px;
+    line-height: 25px;
+}
+
+textarea {
+    width: 350px;
+    height: 150px;
+}
+
+.error {
+    color: red;
+}
+
+div.main, div.left, div.right {
+    padding-top: 5px;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+div.main {
+    padding-left: 450px;
+    position: relative;
+    width: 100%;
+}
+
+div.left {
+    width: 450px;
+    position: relative;
+    margin-left: -450px;
+    float: left;
+    border-right: 1px solid #333;
+    height: 100%;
+}
+
+div.right {
+    width: 100%;
+    position: relative;
+    float: right;
+    padding: 15px;
+}
+
+h1 {
+    float: left;
+    top: -25px;
+    left: 50%;
+    position: relative;
+}
+
+table.table {
+    table-layout: fixed;
+    width: 100%;
+    margin:0px;
+}
+
+table.table > thead > tr > th {
+    padding: 8px 12px;
+    background: #eee;
+    font-size: 12px;
+    
+}
+
+table.table > tbody > tr > td {
+    font-size: 12px;
+    height: 25px;
+    overflow: hidden;
+    white-space: nowrap;
+}

@@ -1,0 +1,28 @@
+{
+  "name": "simulateagent",
+  "version": "1.1.0",
+  "description": "Simulated apis for web developers",
+  "main": "./index.js",
+  "scripts": {
+    "start": "./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dashng/mock-api-server.git"
+  },
+  "bin": {
+    "simulate-api": "./index.js"
+  },
+  "author": "dsscnt@163.com",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "compression": "^1.7.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "sqlite3": "^4.0.6",
+    "winston": "^3.1.0"
+  }
+}
