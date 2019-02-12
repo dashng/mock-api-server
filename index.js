@@ -1,5 +1,5 @@
 #! /usr/bin/env node
 
-const simulate_api = require('./src/app');
+'use strict'
 
-simulate_api();
+require('./src/app')();
